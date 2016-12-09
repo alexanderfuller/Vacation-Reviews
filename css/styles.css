@@ -1,0 +1,315 @@
+
+
+html{
+ font-family: 'Architects Daughter', cursive;
+  font-weight:bold;
+  letter-spacing:2px;
+}
+
+body{
+  background:#26ED94;
+    background-size:100%;
+
+}
+
+nav{
+  height:79px;
+  float:left;
+}
+
+.nav-wrapper{
+  background-image:url("../images/wood.jpg");
+}
+.nav-wrapper .brand-logo{
+  margin-left:12px;
+  color:#26ED94;
+  float:left;
+  text-shadow:6px 6px 12px black;
+  font-weight:bold;
+  
+}
+.nav-wrapper p{
+  margin-top:29px;
+  margin-left:15px;
+  float:left;
+  color:white!Important;
+  font-weight:bold;
+  letter-spacing:1px;
+  font-size:19px;
+}
+.slider{
+  float:left;
+  height:240px !Important;
+background-image:url("../images/wood.jpg");
+box-shadow:0 0 25px black;
+}
+
+.indicators{
+  position:relative !Important;
+  margin-top:10px !Important;
+
+}
+.logoicon{
+  width:40px;
+  height:40px;
+  margin-top:5px;
+}
+
+.vacSpot{
+  float:left;
+  width:20%;
+  height:250px;
+  margin-left:2.5%;
+  margin-right:2.5%;
+  margin-top:160px;
+ box-shadow:0 0 10px black;
+  background-image:url("../images/wood.jpg");
+
+}
+.row{
+
+  float:left;
+  width:100%;
+
+}
+
+.vacSpot > a{
+  color:white !Important;
+  font-size:15px;
+
+
+}
+.vacSpot .profilePic{
+  float:left;
+  width:100%;
+  height:230px;
+}
+
+
+
+.profilePic{
+  box-shadow:0 0 10px black;
+}
+.profilePic:hover{
+    box-shadow:0 0 25px black;
+    transition:0.3s ease all;
+}
+.vacSpot a:hover{
+    box-shadow:0 0 25px black;
+    transition:0.3s ease all;
+}
+
+.placeDetails{
+  float:left;
+  width:75%;
+  margin-left:12%;
+  margin-right:12%;
+padding-bottom:100px;
+}
+
+.placeDetails p{
+
+
+  margin-left:18px;
+  margin-right:10px;
+
+}
+ h5{
+  float:left;
+
+  width:75%;
+  margin-left:12%;
+  margin-right:12%;
+  padding:10px 0;
+  border-radius:5px;
+    margin-top:50px;
+  background-image:url("../images/wood.jpg");
+  color:#FFDE0A;
+    text-align:center;
+ text-shadow:10px 10px 22px black;
+  box-shadow:0 0 20px black;
+font-weight:bold;
+
+}
+.homeTitle{
+margin-top:130px;
+}
+
+b{
+  font-size:18px;
+  border-radius:5px;
+  text-shadow:gold 0 0 13px;
+}
+
+.detailsPic{
+  float:left;
+  width:55%;
+  height:260px;
+  box-shadow:0px 0px 5px black;
+  margin:2%;
+  border-radius:5px;
+
+}
+
+
+.reviews, #move{
+  float:left;
+  width:75%;
+  margin-left:12%;
+  margin-right:12%;
+}
+
+.reviews h5{
+
+  float:left;
+  width:98%;
+  margin:1%;
+    margin-top:400px;
+  border-radius:5px;
+    background-image:url("../images/wood.jpg");
+  color:white;
+  text-align:center;
+}
+.reviews h6{
+
+  color:black;
+  margin-left:13px;
+  font-size:18px;
+  font-weight:bold;
+  color:red;
+}
+form{
+  margin-left:28%;
+  width:45%;
+
+}
+label{
+  color:black !Important;
+  font-size:18px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    black;
+     opacity: 1 !important;
+}
+form input[type='text']{
+  color:black;
+  font-size:18px;
+}
+center h4{
+  color:red;
+  float:left;
+  font-size:17px;
+  width:100%;
+  float:left;
+  text-align:center;
+}
+.reviews i{
+  margin:0;
+  font-size:25px;
+
+ 
+}
+.vacSpot a{
+  float:left;
+  text-align:center;
+  width:100%;
+  color:white;
+  font-size:20px;
+}
+.vacSpot:hover > .vacSpot img, .vacSpot a{
+  box-shadow: 0 0 9px black;
+}
+.registerTitle{
+  float:left;
+}
+.vacSpot .btn{
+  margin-top:15px;
+}
+.lines li{
+  padding:12px 12px;
+  border-radius:5px;
+  float:left;
+  width:98%;
+  margin:1%;
+  border:3px solid #178A57;
+  transition:all 0.3s ease;
+}
+.lines li:nth-child(odd){
+  background:#76DBAE;
+}
+.lines li:nth-child(even){
+  background:#75FFC1;
+}
+
+.footer{
+  float:left;
+  width:100%;
+  background-image:url("../images/wood.jpg");
+  height:200px;
+  margin-top:200px;
+}
+#dropdown1{
+  margin-top:70px;
+
+}
+.btn{
+  background:#428040;
+
+}
+.btn:hover{
+  background:#428040;
+
+  box-shadow:black 0 0 10px;
+}
+.btn.back{
+  margin-left:1%;
+}
+a.waves-effect.waves-light.btn.del{
+  background:red;
+}
+#hi{
+  background:red;
+}
+.mobileShow{
+  display:none;
+}
+@media screen and (max-width: 970px) {
+
+
+    nav {
+        height:120px;
+        width:100%;
+        float:left;
+    }
+
+    a.brand-logo{
+    font-size:25px;
+     
+    }
+    .brand-logo img{
+      display:none;
+    }
+ .nav-wrapper p{
+   display:none;
+ }
+    .button-collapse{
+      width:100%;
+    }
+
+    .vacSpot{
+      width:95%;
+    }
+    .btn{
+      width:85%;
+      background:#4BC46B;
+      float:left;
+    }
+    .detailsPic {
+width:100%;
+    }
+    .mobileShow{
+      display:block;
+    float:left;
+      margin-top:50px;
+    }
+}
